@@ -1,0 +1,4 @@
+com\zhss\oa\auth\service\AuthorizationService.class
+com\zhss\oa\auth\model\Authorization.class
+com\zhss\oa\auth\service\impl\AuthorizationServiceImpl.class
+com\zhss\oa\auth\mapper\AuthorizationMapper.class
