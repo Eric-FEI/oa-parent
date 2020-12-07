@@ -19,6 +19,7 @@ public class AuthorizationServiceImpl implements AuthorizationService {
 
 	public void unauthorize(Long id) {
 		System.out.println("unauthorized...");
+		System.out.println("another line...");
 		authorizationMapper.unauthorize(id);
 	}
 
