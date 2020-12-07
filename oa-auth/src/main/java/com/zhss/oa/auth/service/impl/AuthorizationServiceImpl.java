@@ -17,7 +17,8 @@ public class AuthorizationServiceImpl implements AuthorizationService {
 	}
 
 	public void unauthorize(Long id) {
-		authorizationMapper.unauthorize(id); 
+		authorizationMapper.unauthorize(id);
+		System.out.println("");
 	}
 
 	public Authorization findById(Long id) {
