@@ -13,7 +13,8 @@ public class EmployeeServiceImpl implements EmployeeService {
 	private EmployeeMapper employeeMapper;
 	
 	public void addEmployee(Employee employee) {
-		employeeMapper.addEmployee(employee); 
+		System.out.println("feature/002");
+		employeeMapper.addEmployee(employee);
 	}
 
 	public Employee findEmployeeById(Long id) {
